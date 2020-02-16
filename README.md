@@ -8,3 +8,6 @@
 
 #### Trancode with 1mbps quality target with scale x=1920 y=(aspect divisible by 2) (can be flipped for y axis or different modulus)
 `ffmpeg -i output.mp4 -b 1000000 -vf scale=1920:-2 output_1mbps.mp4`
+
+#### Combine video & audio streams into mkv file (without transcoding)
+`ffmpeg -i video.mp4 -i audio.aac -c copy output.mkv`
