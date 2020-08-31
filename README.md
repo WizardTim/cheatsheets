@@ -11,3 +11,6 @@
 
 #### Combine video & audio streams into mkv file (without transcoding)
 `ffmpeg -i video.mp4 -i audio.aac -c copy output.mkv`
+
+#### Increase volume of the audio stream of any container to 150%
+`ffmpeg -i input.mp4 -filter:a "volume=1.5" output.mp4`
