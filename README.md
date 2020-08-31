@@ -14,3 +14,6 @@
 
 #### Increase volume of the audio stream of any container to 150%
 `ffmpeg -i input.mp4 -filter:a "volume=1.5" output.mp4`
+
+#### Apply math function to folder of JPGs, eg. output JPG will be mean of all JPGs in folder (useful for image reducing noise with multiple exposures)
+`ffmpeg convert -evaluate-sequence mean '*.jpg' output.jpg`
