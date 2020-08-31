@@ -17,3 +17,6 @@
 
 #### Apply math function to folder of JPGs, eg. output JPG will be mean of all JPGs in folder (useful for image reducing noise with multiple exposures)
 `ffmpeg convert -evaluate-sequence mean '*.jpg' output.jpg`
+
+#### Transcode video to streaming friendly format (recommended by lbry.tv) 
+`ffmpeg -i input.mp4 -c:v libx264 -crf 21 -preset faster -pix_fmt yuv420p -maxrate 5000K -bufsize 5000K -vf 'scale=if(gte(iw\,ih)\,min(1920\,iw)\,-2):if(lt(iw\,ih)\,min(1920\,ih)\,-2)' -movflags +faststart -c:a aac -b:a 160k output.mp4`
