@@ -5,5 +5,5 @@ A collection of commands, code snippets, settings, instructions and tips I often
 
 | Program | Website | Description | Cheatsheet |
 |:-----|:-----|:-----|:-----|
-| **ffmpeg** | [ffmpeg.org](https://ffmpeg.org/) | cli application for processing video and audio files | [Commands](./ffmpeg.md) |
-
+| **FFmpeg** | [ffmpeg.org](https://ffmpeg.org/) | cli program for processing video and audio files | [Cheatsheet](./ffmpeg.md) |
+| **hdparm** | [Wikipedia](https://en.wikipedia.org/wiki/Hdparm) | cli program to set and view ATA drive parameters | [Cheatsheet](./hdparm.md) |
