@@ -11,6 +11,10 @@ Additional breakdown of disk space used by snapshots and the dataset
 
 `zfs list -o space`
 
+List snapshots
+
+`zfs list -t snapshot`
+
 ---
 
 #### Mount a ZFS dataset
