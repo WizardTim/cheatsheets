@@ -15,6 +15,10 @@ List snapshots
 
 `zfs list -t snapshot`
 
+### Access a snapshot
+
+`cd /pool/dataset/.zfs/snapshot/zfs-auto-snap_hrly-2000-01-01-0000`
+
 ---
 
 #### Mount a ZFS dataset
