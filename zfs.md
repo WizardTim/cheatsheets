@@ -105,6 +105,14 @@ Destroy a pool (non-secure erase)
 
 ---
 
+#### Filesystem management
+
+Create a filesystem on a pool with default/inherited properties
+
+`sudo zfs create <pool>/<filesystem>`
+
+---
+
 #### Device management
 
 Offline a device (either by sdX or UUID)
