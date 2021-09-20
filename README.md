@@ -13,4 +13,5 @@ A collection of commands, code snippets, settings, instructions and tips I often
 | **rsync** | [wikipedia.org](https://en.wikipedia.org/wiki/Rsync) | Transfer or sync files across file systems or remote machines | [Cheatsheet](./rsync.md) |
 | **tail** | [wikipedia.org](https://en.wikipedia.org/wiki/Tail_(Unix)) | Display end of file or piped data | [Cheatsheet](./tail.md) |
 | **wget** | [wikipedia.org](https://en.wikipedia.org/wiki/Wget) | Retrieve content from web servers | [Cheatsheet](./wget.md) |
+| **youtube-dl** | [youtube-dl.org](https://youtube-dl.org) | YouTube video downloader | [Cheatsheet](./youtube-dl.md) |
 | **ZFS** | [openzfs.org](https://openzfs.org) | File system with volume manager with excellent  data integrity | [Cheatsheet](./zfs.md) |
