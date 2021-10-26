@@ -24,3 +24,6 @@
 
 #### Segment audio file into 5 second file segments
 `ffmpeg -i input.mp3 -f segment -segment_time 5 -c copy output%04d.mp3`
+
+#### Save a frame as a PNG every 1 second
+`ffmpeg -i input.mp4 -vf fps=1 output%d.png`
