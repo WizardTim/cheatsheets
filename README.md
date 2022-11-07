@@ -6,6 +6,7 @@ A collection of commands, code snippets, settings, instructions and tips I often
 | Program | Website | Description |   |
 |:-----|:-----|:-----|:-----|
 | **badblocks** | [wikipedia.org](https://en.wikipedia.org/wiki/Badblocks) | Check for bad blocks on a disk drive | [Cheatsheet](./badblocks.md) |
+| **bash** | [wikipedia.org](https://en.wikipedia.org/wiki/Bash_(Unix_shell)) | Bash Unix shell | [Cheatsheet](./bash.md) |
 | **chrony** | [tuxfamily.org](https://chrony.tuxfamily.org/) | Network Time Protocol (NTP) client, server and reference clock receiver | [Cheatsheet](./chrony.md) |
 | **FFmpeg** | [ffmpeg.org](https://ffmpeg.org/) | Process video and audio files | [Cheatsheet](./ffmpeg.md) |
 | **hdparm** | [wikipedia.org](https://en.wikipedia.org/wiki/Hdparm) | Set and view ATA drive parameters | [Cheatsheet](./hdparm.md) |
