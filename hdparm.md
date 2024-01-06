@@ -1,7 +1,7 @@
 [Back to Cheatsheets Index](README.md)
 # hdparm Cheatsheet
 
-### Warning: hdparm can permanently and irreversibly destroy data and physical hardware
+### Caution: hdparm can permanently and irreversibly destroy data and physical hardware
 
 ---
 

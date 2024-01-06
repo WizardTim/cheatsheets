@@ -27,3 +27,9 @@
 
 #### Save a frame as a PNG every 1 second (fps=5, 5 every second)
 `ffmpeg -i input.mp4 -vf fps=1 output%d.png`
+
+#### Re-scale single JPG to 640px width (retain aspect ratio)
+`ffmpeg -i DSC00001.JPG -vf scale=640:-1 DSC00001-640px.JPG`
+
+#### Create a copy of every JPG in a directory re-scaled to have width = 1,000px (height = -1 scales to keep aspect ratio)
+`for f in *.JPG; do ffmpeg -i "$f" -vf scale=1000:-1 "./existing-folder/${f%%.JPG}.JPG"; done`
