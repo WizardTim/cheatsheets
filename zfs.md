@@ -28,12 +28,12 @@ A specific one
 
 All available
 
-`sudo zfs mount -a`
-or
-`sudo zfs mount -all`
+`sudo zfs mount -a` or `sudo zfs mount -all`
 
 _Note: You will likely be prompted for your root password and then your ZFS encryption password, read the prompt carefully, there is a limited number of attempts per import of the dataset_
+
 _Note: You don't need to use load-key before using this mount command_
+
 ---
 
 #### Get properties of a ZFS dataset 
