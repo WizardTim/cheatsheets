@@ -28,6 +28,7 @@ This will overwrite all data.
 `badblocks -wvs -b 4096 -c 65536 /dev/sda`
 
 *Note: after the drive is overwritten Windows may think drive is damaged and may prevent you from formatting it in the Disk Management GUI, ensure to format the drive with a new partition table (GPT or MBR) in Linux before use on Windows.*
+
 *Note: this should not be used as a replacement for a secure erase.*
 
 ---
