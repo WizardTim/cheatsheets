@@ -25,8 +25,14 @@
 #### Segment audio file into 5 second file segments
 `ffmpeg -i input.mp3 -f segment -segment_time 5 -c copy output%04d.mp3`
 
-#### Save a frame as a PNG every 1 second (fps=5, 5 every second)
-`ffmpeg -i input.mp4 -vf fps=1 output%d.png`
+#### Save a frame as a PNG every 1 second (fps=10 -> 10 every second)
+`ffmpeg -i input.mp4 -vf fps=10 output%d.png`
+
+#### Save a frame as a PNG every 1 second, but prepend the sequence number with zeros (fps=10 -> 10 every second)
+`ffmpeg -i input.mp4 -vf fps=10 output%05d.png`
+
+_Note: Prepended zeros are essential for retaining sequence order in OSes with conventional filename sorting (eg. most Linuxes)_
+
 
 #### Re-scale single JPG to 640px width (retain aspect ratio)
 `ffmpeg -i DSC00001.JPG -vf scale=640:-1 DSC00001-640px.JPG`
